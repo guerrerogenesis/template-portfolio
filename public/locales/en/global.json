@@ -1,0 +1,15 @@
+{
+  "pageTitle": "John Doe - My Portfolio",
+  "metas": {
+    "title": "John Doe - Web Developer",
+    "description": "Explore my work as a web developer. I specialize in building responsive websites and applications, always aiming to deliver optimal performance and user experience.",
+    "url": "https://johndoe-portfolio.com"
+  },
+  "navigation": {
+    "about": "About",
+    "experiencies": "Experiencies",
+    "education": "Education",
+    "volunteering": "Volunteering",
+    "projects": "Projects"
+  }
+}

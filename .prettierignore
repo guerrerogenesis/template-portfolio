@@ -1,0 +1,11 @@
+# Ignore artifacts:
+build
+coverage
+.next
+public
+styles
+.prettierrc
+next.config.js
+postcss.config.js
+# Ignore all HTML files:
+*.html

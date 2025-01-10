@@ -1,0 +1,160 @@
+{
+  "general": {
+    "name": "Juan Pérez",
+    "headline": "ᴀᴍᴀɴᴛᴇ ᴅᴇʟ ᴅᴇsʀʀᴏʟʟᴏ ᴡᴇʙ ʏ ᴇɴᴀᴍᴏʀᴀᴅᴏ ᴅᴇ ʟᴏs ᴘᴇʀʀᴏs.♡",
+    "about": [
+      "¡Hola! 👋",
+      "👨‍💻 Soy desarrollador Web con experiencia en Frontend y Backend, apasionado por crear productos digitales personalizados y siempre buscando nuevas oportunidades.",
+      "Tengo 5 años de experiencia en desarrollo web, colaborando con equipos multidisciplinarios para crear sitios web a medida.",
+      "✅ 4 años en Frontend: Creando experiencias digitales visualmente atractivas, personalizadas y de calidad.",
+      "✅ 1 año en Backend: Desarrollando e integrando servicios y soluciones personalizadas y automatizadas para procesos de ventas, principalmente en el sector educativo."
+    ],
+    "socials": [
+      {
+        "isButton": true,
+        "url": "mailto:juanperez@gmail.com",
+        "text": "Contáctame",
+        "icon": {
+          "src": "/images/icons/email.png",
+          "alt": "Correo"
+        }
+      },
+      {
+        "url": "https://www.linkedin.com/in/juanperez/",
+        "text": "LinkedIn",
+        "icon": {
+          "src": "/images/icons/linkedin-mark-white.png",
+          "alt": "LinkedIn"
+        }
+      },
+      {
+        "url": "https://github.com/juanperez",
+        "text": "GitHub",
+        "icon": {
+          "src": "/images/icons/github-mark-white.png",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "url": "https://dev.to/juanperez",
+        "text": "DEV",
+        "icon": {
+          "src": "/images/icons/dev-brands-solid.svg",
+          "alt": "dev.to"
+        }
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Desarrollador Backend",
+      "company": "ABC Software Solutions",
+      "href": "https://www.abcsoftwaresolutions.com",
+      "startDate": "Enero 2024",
+      "endDate": "Diciembre 2025",
+      "description": "Desarrollador Backend y administrador de sistemas, encargado de crear y mantener soluciones personalizadas e integraciones de sistemas.",
+      "logo": {
+        "src": "/images/icons/abc_logo.png",
+        "alt": "ABC Software Solutions",
+        "width": 90,
+        "height": 60
+      },
+      "skills": [
+        "Python",
+        "Django",
+        "Flask",
+        "SQL",
+        "APIs REST",
+        "Gestión de bases de datos",
+        "AWS",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Desarrollador Web",
+      "company": "XYZ Tech",
+      "href": "https://xyztech.com",
+      "startDate": "Marzo 2022",
+      "endDate": "Noviembre 2023",
+      "description": "Desarrollador web en el equipo de frontend, creando soluciones visualmente atractivas y mejorando la experiencia del usuario.",
+      "logo": {
+        "src": "/images/icons/xyz_logo.png",
+        "alt": "XYZ Tech",
+        "width": 70,
+        "height": 70
+      },
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Vue.js",
+        "Node.js",
+        "Git",
+        "Agile"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "subject": "Ingeniería en Sistemas Computacionales",
+      "degree": "Licenciatura",
+      "university": "Universidad de Tecnología Avanzada",
+      "href": "https://www.utav.edu",
+      "startDate": "2018",
+      "endDate": "2023",
+      "description": "El programa en Ingeniería en Sistemas Computacionales forma profesionales capacitados en el diseño, desarrollo e implementación de soluciones tecnológicas para diversas industrias.",
+      "logo": {
+        "src": "/images/icons/utav_logo.png",
+        "alt": "Universidad de Tecnología Avanzada",
+        "width": 90,
+        "height": 60
+      }
+    },
+    {
+      "subject": "Técnico en Programación",
+      "degree": "Técnico",
+      "university": "Instituto Técnico Superior",
+      "href": "https://www.its.edu",
+      "startDate": "2015",
+      "endDate": "2018",
+      "description": "El programa de Técnico en Programación prepara a los estudiantes para desarrollar aplicaciones informáticas utilizando diversos lenguajes de programación y herramientas tecnológicas.",
+      "logo": {
+        "src": "/images/icons/its_logo.png",
+        "alt": "Instituto Técnico Superior",
+        "width": 70,
+        "height": 60
+      }
+    }
+  ],
+  "volunteering": [],
+  "projects": [
+    {
+      "name": "react-project",
+      "description": "Proyecto de React para una aplicación interactiva",
+      "private": false,
+      "url": "https://github.com/juanperez/react-project",
+      "language": "JavaScript",
+      "stars": 5,
+      "web_link": "https://react-project.example.com"
+    },
+    {
+      "name": "weather-app",
+      "description": "Aplicación web para ver el pronóstico del clima",
+      "private": false,
+      "url": "https://github.com/juanperez/weather-app",
+      "language": "JavaScript",
+      "stars": 10,
+      "web_link": "https://weather-app.example.com"
+    },
+    {
+      "name": "chat-app",
+      "description": "Aplicación de chat en tiempo real usando Firebase",
+      "private": false,
+      "url": "https://github.com/juanperez/chat-app",
+      "language": "JavaScript",
+      "stars": 8,
+      "web_link": "https://chat-app.example.com"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "prettier",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals"
+  ],
+  "plugins": ["react", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "eqeqeq": "error",
+    "no-nested-ternary": "error",
+    "no-var": "error",
+    // "no-console": "warn",
+    "prefer-destructuring": "warn",
+    "template-curly-spacing": "warn",
+    "prettier/prettier": [
+      "warn",
+      {
+        "tabWidth": 2,
+        "semi": true,
+        "bracketSpacing": true,
+        "arrowParens": "avoid",
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

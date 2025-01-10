@@ -1,0 +1,15 @@
+{
+  "pageTitle": "Juan Pérez - Mi Portafolio",
+  "metas": {
+    "title": "Juan Pérez - Desarrollador de Software",
+    "description": "Explora mi trabajo como desarrollador de software. Con experiencia en frontend y backend, me apasiona crear productos digitales personalizados y siempre busco nuevos desafíos para mejorar mis habilidades y ofrecer soluciones innovadoras.",
+    "url": "https://juanperez-dev.vercel.app/es"
+  },
+  "navigation": {
+    "about": "Sobre mí",
+    "experiencies": "Experiencia",
+    "education": "Educación",
+    "volunteering": "Voluntariado",
+    "projects": "Proyectos"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@context/*": ["utils/context/*"],
+      "@libs/*": ["libs/*"],
+      "@redux/*": ["redux/*"],
+      "@public/*": ["public/*"],
+      "@mockdata/*": ["__mocks__/*"],
+      "@pages/*": ["pages/*"]
+    }
+  }
+}

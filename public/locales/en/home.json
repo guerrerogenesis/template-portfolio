@@ -1,0 +1,159 @@
+{
+  "general": {
+    "name": "John Doe",
+    "headline": "A passionate web developer and tech enthusiast.",
+    "about": [
+      "Hello there! 👋",
+      "👨‍💻 I am a Software Engineer with expertise in both Frontend and Backend development.",
+      "I have 5 years of experience in building scalable web applications.",
+      "✅ 3 years in Frontend: Crafting seamless user interfaces and experiences.",
+      "✅ 2 years in Backend: Developing robust systems and APIs for enterprise solutions."
+    ],
+    "socials": [
+      {
+        "isButton": true,
+        "url": "mailto:john.doe@example.com",
+        "text": "Contact Me",
+        "icon": {
+          "src": "/images/icons/email.png",
+          "alt": "Email"
+        }
+      },
+      {
+        "url": "https://www.linkedin.com/in/johndoe/",
+        "text": "LinkedIn",
+        "icon": {
+          "src": "/images/icons/linkedin-mark-white.png",
+          "alt": "LinkedIn"
+        }
+      },
+      {
+        "url": "https://github.com/johndoe",
+        "text": "GitHub",
+        "icon": {
+          "src": "/images/icons/github-mark-white.png",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "url": "https://dev.to/johndoe",
+        "text": "DEV",
+        "icon": {
+          "src": "/images/icons/dev-brands-solid.svg",
+          "alt": "dev.to"
+        }
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Backend Developer",
+      "company": "XYZ Technologies",
+      "href": "https://www.xyz.com",
+      "startDate": "March 2022",
+      "endDate": "Present",
+      "description": "Responsible for designing and building APIs, integrating third-party services, and providing IT support.",
+      "logo": {
+        "src": "/images/icons/xyz_logo.png",
+        "alt": "XYZ Technologies",
+        "width": 90,
+        "height": 60
+      },
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "GraphQL",
+        "API REST",
+        "AWS",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Full-stack Developer",
+      "company": "Tech Innovators",
+      "href": "https://www.techinnovators.com",
+      "startDate": "January 2020",
+      "endDate": "February 2022",
+      "description": "Developed full-stack applications using modern frameworks and technologies, optimized UI and implemented dynamic features.",
+      "logo": {
+        "src": "/images/icons/tech_innovators_logo.png",
+        "alt": "Tech Innovators",
+        "width": 70,
+        "height": 70
+      },
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "Vue.js",
+        "MySQL",
+        "GraphQL",
+        "Docker",
+        "CI/CD"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "subject": "Software Engineering",
+      "degree": "Bachelor's Degree",
+      "university": "University of Tech",
+      "href": "https://www.universityoftech.com",
+      "startDate": "2015",
+      "endDate": "2019",
+      "description": "Focus on developing scalable software solutions with knowledge in algorithms, databases, and design patterns.",
+      "logo": {
+        "src": "/images/icons/university_logo.png",
+        "alt": "University of Tech",
+        "width": 90,
+        "height": 60
+      }
+    },
+    {
+      "subject": "Computer Science",
+      "degree": "Associate's Degree",
+      "university": "Tech College",
+      "href": "https://www.techcollege.com",
+      "startDate": "2013",
+      "endDate": "2015",
+      "description": "Study of computational theory, data structures, and introductory software development techniques.",
+      "logo": {
+        "src": "/images/icons/tech_college_logo.png",
+        "alt": "Tech College",
+        "width": 70,
+        "height": 60
+      }
+    }
+  ],
+  "volunteering": [],
+  "projects": [
+    {
+      "name": "react-dashboard",
+      "description": "A customizable React-based dashboard for personal use.",
+      "private": false,
+      "url": "https://github.com/johndoe/react-dashboard",
+      "language": "JavaScript",
+      "stars": 5,
+      "web_link": "https://react-dashboard.vercel.app"
+    },
+    {
+      "name": "todo-app",
+      "description": "A simple to-do app built with React and Redux.",
+      "private": false,
+      "url": "https://github.com/johndoe/todo-app",
+      "language": "JavaScript",
+      "stars": 3,
+      "web_link": "https://todo-app.vercel.app"
+    },
+    {
+      "name": "weather-app",
+      "description": "Weather app using OpenWeather API and React.",
+      "private": false,
+      "url": "https://github.com/johndoe/weather-app",
+      "language": "JavaScript",
+      "stars": 4,
+      "web_link": "https://weather-app.vercel.app"
+    }
+  ]
+}
