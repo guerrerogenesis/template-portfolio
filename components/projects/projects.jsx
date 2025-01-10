@@ -3,7 +3,7 @@ import ProjectItem from "./project-item";
 
 const Projects = props => {
   const { content, repositories } = props;
-  const topics = [] || repositories.topics.map(topic => [topic.topic.name]);
+
   const projects =
     repositories.length > 0
       ? repositories
@@ -26,7 +26,7 @@ const Projects = props => {
               description={repo.description}
               url={repo.url}
               web_link={repo.web_link}
-              topics={topics}
+              topics={repo.projects}
             />
           );
         })}

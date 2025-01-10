@@ -6,6 +6,8 @@ import Link from "next/link";
 
 function ProjectItem(props) {
   const { name, description, language, stars, url, web_link, topics } = props;
+  const topicsArray =
+    topics.length > 0 ? topics.map(topic => topic.topic.name) : [];
   return (
     <div className="group flex flex-col p-5 transition-all bg-surface-200 hover:scale-110 brightness-75 hover:brightness-100 hover:z-10 ">
       <Link
@@ -27,8 +29,8 @@ function ProjectItem(props) {
         <div className="text-surface-600 text-xs">{description}</div>
 
         <div className="flex flex-row flex-wrap mb-3">
-          {topics
-            ? topics.map(function (topic, index) {
+          {topicsArray
+            ? topicsArray.map(function (topic, index) {
                 return (
                   <div
                     key={topic}
